@@ -29,7 +29,7 @@ importJS([ "lib/MOON.js", "lib/enchant.js", "lib/ui.enchant.js",
 		alertThenFinish(COMPLETE_MESSAGE);
 	}
 
-	StickerPuppet.create("ペンフトク", {
+	StickerPuppet.create("ペンの太さを設定", {
 		behavior : [ {
 			stickertap : function(event) {
 				askPenWidth();
